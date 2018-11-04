@@ -11,10 +11,4 @@ public class TheclassTest {
 		fail("Not yet implemented");
 	}
 
-	@Test
-	void testDescribe() {
-		Theiterface o = new Theclass();
-		assertEquals("\"hey I got something\"", o.describe());
-	}
-
 }

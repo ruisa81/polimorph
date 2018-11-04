@@ -1,18 +1,18 @@
 package uk.ac.uos.hwpoli;
 
-class Theclass implements Theiterface {
-	
+public class DescribeS implements Theinterface {
+
 	String s;
 	
-	public Theclass() {
-		
-		s="hey I got something";
+	public DescribeS () {
+	s="hey I got something";
+	
 	}
 	
 	@Override public String describe() {
 		
 		return "\"" + s + "\"";
 	}
-
+	
 	
 }
